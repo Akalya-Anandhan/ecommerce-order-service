@@ -29,8 +29,4 @@ pipeline {
             echo 'Build Failed ❌'
         }
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 6150d97 (Rename Jenkinsfile correctly)
+
