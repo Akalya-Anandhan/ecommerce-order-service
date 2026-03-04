@@ -18,7 +18,6 @@ pipeline {
                 bat 'mvn clean package'
             }
         }
-
     }
 
     post {
@@ -29,4 +28,5 @@ pipeline {
             echo 'Build Failed ❌'
         }
     }
-
+}
+    
